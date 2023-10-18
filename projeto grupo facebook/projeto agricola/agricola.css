@@ -1,0 +1,181 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+header{
+    background: #222121;
+    height: 175px;   
+}
+#container-header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+}
+#menu{position: relative;
+    display: flex;
+    justify-content:center;
+     padding: 55px 190px 0 0;
+}
+.logo{
+    width: 140px;
+    padding: 15px 0 10px 60px;
+}
+#logo-header{
+    max-height: 120px;
+    position: relative;
+}
+
+ nav ul
+ { display: flex;;margin: 15px 0px;}
+
+.passagem:hover{
+color: #fff;
+text-decoration: underline;
+font-size: 20px;
+ }
+li{list-style-type: none}
+li a {
+    margin: 0 39px;text-decoration: none;color: #fff;
+}
+
+.btn-cadastro {
+   height:40px ; background:#222121 ; color: #fff;border: 3px solid #23961f; border-radius: 5px; padding: 2px 10px ;margin: 0 2px 0 110px;cursor:pointer;
+}
+.btn-login{
+    height: 42px;background:#23961f ; border-radius: 5px; padding: 7px 19px;color: #fff;cursor: pointer;
+}
+.conteudo{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+.img-principal{
+    filter: brightness(60%);
+    width: 100%;
+    height: 600px;
+}
+#paragrafo-1{ position: absolute;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+   bottom: 250px;
+   left: 20%;
+   text-align: center;
+}
+h1{
+    font-size: 30px;
+    color: #0e4d0b;
+   
+    margin: 30px 0 15px;
+}
+.img-historia{
+    border-radius: 3px;
+    float: left;
+    height: 300px;
+    padding:20px 25px;
+}
+main{
+    background: #ddd;
+}
+.text-main ,p{
+    padding: 5px 18px;
+    font-size: 18px;
+}
+#information{
+    height: 30px;background:#23961f ; border-radius: 5px; padding: 1px 10px;color: #fff;margin-left: 15px;;
+}
+#conteudo-video{
+display: flex;
+justify-content: center;
+}
+.legend{
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 40px;
+}
+#section-hortfrut{
+    
+    background:#222121;
+}
+#container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 40px 0;
+
+}
+#container img{
+    height: 314px;
+    width: 263px;
+    position: relative;  
+      
+}
+
+#section-hortfrut img:hover {    
+    cursor: pointer;
+    width: 400px;
+    height: 400px;
+    transition: 0.5s;
+}
+
+h3{
+text-align: center;
+    color: #fff;
+    padding-bottom: 7px;
+    
+}
+
+details{
+    font-weight: 500;
+    color:#fff;
+    max-width:216px; ;
+   
+}
+#container-footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#numero-contato,#rede-social,.direitos-autorais{
+    color: #fff;
+}
+
+.direitos-autorais{
+    text-align: center;
+    font-size: 15px;
+}
+#lista-de-serviços{
+    text-align: center;
+}
+h4 {
+    text-align: center;
+    padding: 30px 0 10px;
+    font-size: 20px;
+    color: #fff;
+}
+#rede-social i{
+    font-size: 24px;
+    padding: 0  2PX;
+    cursor: pointer;
+}
+/* @media {
+    #menu li{
+       width: 80px;
+    
+    }
+    #menu {
+        flex-wrap: wrap;
+        align-items: center;
+
+    }
+    .btn-cadastro{
+        padding-left: 10px;
+    }
+    header{
+        height: 230px;
+    }
+} */
